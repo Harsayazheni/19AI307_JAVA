@@ -60,7 +60,8 @@ public class LargestElement {
 
 
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/e06511cf-da9d-42a4-884f-483acd306560)
+
 
 
 

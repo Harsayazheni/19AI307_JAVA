@@ -45,7 +45,8 @@ System.out.println(st.nextToken());
 
 
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/022a4828-d122-49d7-af53-618496fcdabb)
+
 
 
 

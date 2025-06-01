@@ -72,7 +72,8 @@ public static void main(String args[]){
 
 
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/98693dec-c0f9-4d50-bf08-8bd58183102a)
+
 
 
 

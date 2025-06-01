@@ -23,13 +23,52 @@ To create a Java Program to implement Method Local Inner Class.
  ```
 /*
 Program to implement a Inner Class using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
+```
+class Progress_Report
+{
+    private String stuId;
+    
+    Progress_Report()
+    {
+        this.stuId = "12345";
+    }
+    
+    class Exam
+    {
+        private float mark1;
+        private float mark2;
+        private float mark3;
+        
+        Exam()
+        {
+            this.mark1 = (float) 89;
+            this.mark2 = (float) 78;
+            this.mark3 = (float) 67;
+        }
+        public void display()
+        {
+            float sum = (mark1+mark2+mark3);
+            System.out.print("Saveetha "+stuId);
+        }
+    }
+}
 
+public class Main
+{
+    public static void main(String[]args)
+    {
+        Progress_Report obj = new Progress_Report();
+        Progress_Report.Exam obj1 = obj.new Exam();
+        obj1.display();
+    }
+}
+```
 
 
 
@@ -37,6 +76,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![Uploading image.png…]()
 
 
 

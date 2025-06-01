@@ -24,13 +24,62 @@
  ```
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
+```
+class Operation {
+   
+    public int add(int a, int b) {
+        return a + b;
+    }
 
+   
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+}
+
+
+class Addition extends Operation {
+   
+    public int addValues(int a, int b) {
+        return add(a, b); 
+    }
+}
+
+
+class Subtraction extends Operation {
+    
+    public int subtractValues(int a, int b) {
+        return subtract(a, b); 
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Addition addObj = new Addition();
+        Subtraction subObj = new Subtraction();
+
+        
+        int value1 = 10;
+        int value2 = 5;
+
+        
+        int additionResult = addObj.addValues(value1, value2);
+        int subtractionResult = subObj.subtractValues(value1, value2);
+
+        
+        System.out.println("Addition of 2 values " + additionResult);
+        System.out.println("Subtraction of 2 values " + subtractionResult);
+    }
+}
+```
 
 
 
@@ -38,6 +87,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/d81ff9e8-8c8b-4464-b689-9346da1b4686)
 
 
 

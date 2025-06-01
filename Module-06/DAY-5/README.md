@@ -24,13 +24,54 @@ b.	Call the methods to get input and display results.
  ```
 /*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
-
+```
+class Student
+{
+    double mark = 5;
+    void displayMarks()
+    {
+        System.out.println("Student's Assessment Marks : "+mark);
+    }
+}
+class SportsStudent extends Student
+{
+    double inc = 5.0;
+    void incrementMark()
+    {
+       System.out.println("Student's Assessment Marks : "+(mark+inc));
+    }
+}
+class Extra_Curriculum extends Student
+{
+    double inc = 4.0;
+    void incrementMark()
+    {
+        System.out.println("Student's Assessment Marks : "+(mark+inc));
+    }
+}
+public class Main
+{
+    public static void main(String[] args)
+    {
+        SportsStudent emp1 = new SportsStudent();
+        Extra_Curriculum emp2 = new Extra_Curriculum();
+        System.out.println("Assessment Mark of the Sports Student before  before incrementing:");
+        emp1.displayMarks();
+        System.out.println("Assessment Mark of the Extra -Curriculum Acitvity Student before  before incrementing:");
+        emp2.displayMarks();
+        System.out.println("Assessment Mark of the Sports Student after  before incrementing:");
+        emp1.incrementMark();
+        System.out.println("Assessment Mark of the Extra -Curriculum Acitvity Student after  before incrementing:");
+        emp2.incrementMark();
+    }
+}
+```
 
 
 
@@ -39,6 +80,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![Uploading image.png…]()
 
 
 ## RESULT:

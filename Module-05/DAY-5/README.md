@@ -60,7 +60,8 @@ public class ArrayProgram {
 
 
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/ec84cff1-1253-43ff-a7b2-625efa5b2b8e)
+
 
 
 

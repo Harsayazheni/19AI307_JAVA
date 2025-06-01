@@ -15,13 +15,25 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
+```
+{
+package com.example.app;
 
+import com.example.constants.Constants;
+
+public class MyApp {
+    public static void main(String[] args) {
+        int sumValue = Constants.SUM;
+        System.out.println("The value of SUM is: " + sumValue);
+    }
+}
+```
 
 
 
@@ -29,6 +41,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/5bd3de62-524d-45b4-bdce-08e9dbf43d97)
 
 
 

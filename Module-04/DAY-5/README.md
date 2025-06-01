@@ -63,8 +63,7 @@ public class Sample{
 
 
 ## OUTPUT:
-
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/2cb742ae-4484-4695-968d-9dd3ef0ec777)
 
 
 ## RESULT:

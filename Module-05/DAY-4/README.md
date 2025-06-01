@@ -19,13 +19,38 @@
  ```
 /*
 Program to implement a IS-A RELATIONSHIP AND HAS-A RELATIONSHIP using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
-
+```
+import java.util.Scanner;
+class fun{
+    public static boolean isPal(String s)
+    {   
+        if(s.length() == 0 || s.length() == 1)
+            return true; 
+        if(s.charAt(0) == s.charAt(s.length()-1))
+        
+        return isPal(s.substring(1, s.length()-1));
+        return false;
+    }
+}
+public class ArrayProgram {
+  public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String string = scanner.nextLine();
+        fun obj=new fun();
+        if(obj.isPal(string))
+            System.out.println(string + " is a palindrome");
+        else
+            System.out.println(string + " is not a palindrome");
+    
+  }
+}
+```
 
 
 
@@ -33,6 +58,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/9a7fc660-c1e4-40c4-8ed9-eb24a32203d8)
 
 
 

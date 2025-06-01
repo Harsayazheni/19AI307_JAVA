@@ -24,13 +24,37 @@
  ```
 /*
 Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
 
+public class HelloWorld{
+
+        void sum(int a,int b){
+    System.out.println(a+b);
+   }
+  void sum(double a,double b){
+    System.out.println(a+b);
+  }
+
+  public static void main(String []args)
+    {
+  HelloWorld obj=new HelloWorld();
+  Scanner sc=new Scanner(System.in);
+  int a=sc.nextInt();
+  int b=sc.nextInt();
+  double c=sc.nextDouble();
+  double d=sc.nextDouble();
+  obj.sum(a,b);
+  obj.sum(c,d);
+     }
+}
+```
 
 
 
@@ -38,6 +62,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/73aa1258-9fd7-4e81-be53-d8a895bf2b96)
 
 
 

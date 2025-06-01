@@ -25,13 +25,33 @@
  ```
 /*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
-
+```
+import java.util.*;
+public class A implements Runnable
+{
+public void run()
+{
+  System.out.println(Thread.currentThread()); // This method is static.
+}
+public static void main(String[] args) 
+{
+ A a = new A();
+ Scanner sc=new Scanner(System.in);
+ String thname=sc.nextLine();
+ Thread t = new Thread(a, thname);
+ t.setPriority(2); // Setting the priority of thread.
+ System.out.println("Priority of Thread: " +t.getPriority());
+ System.out.println("Name of Thread: " +t.getName());
+ t.start();
+  }
+}
+```
 
 
 
@@ -39,6 +59,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/7902d821-443d-4a13-96bb-eead6f284650)
 
 
 

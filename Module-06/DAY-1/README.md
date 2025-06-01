@@ -76,7 +76,8 @@ public class Main
 
 
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/5fa02e0b-23b7-4751-981e-1e4634b2cc6f)
+
 
 
 

@@ -18,13 +18,30 @@ To create a java program to read input and print length of the string in java.
  ```
 /*
 Program to implement a String and its Operations using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class StringEqualityCheck { public static void main(String[] args) { Scanner scanner = new Scanner(System.in);
+    String string1 = scanner.nextLine();
+
+   
+    String string2 = scanner.nextLine();
+
+    
+    boolean areEqual = string1.equals(string2);
+
+   
+    System.out.println(areEqual);
+
+    scanner.close();
+}
+```
 
 
 
@@ -32,6 +49,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![Uploading image.png…]()
 
 
 

@@ -22,14 +22,41 @@ To Develop a Java program to perform Multilevel Inheritance to calculate the are
  ```
 /*
 Program to implement a MultiLevel Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Harsayazheni P Y
+RegisterNumber: 212222040052
 */
 ```
 
 ## Sourcecode.java:
 
+```class College {
+    public void print_cgeName() {
+        System.out.println("Saveetha Engineering College");
+    }
+}
 
+class Department extends College {
+    public void print_deptName() {
+        System.out.println("Computer Science and Engineering");
+    }
+}
+
+class Student extends Department {
+    public void print_stuName() {
+        System.out.println("John Britto");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student studentObj = new Student();
+        studentObj.print_cgeName();
+        studentObj.print_deptName();
+        studentObj.print_stuName();
+       
+    }
+}
+```
 
 
 

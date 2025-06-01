@@ -69,7 +69,8 @@ public class Main {
 
 
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/ca440368-506c-48e8-a105-ad3f66035bf7)
+
 
 
 

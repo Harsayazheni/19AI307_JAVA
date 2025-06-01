@@ -49,7 +49,8 @@ public class StringEqualityCheck { public static void main(String[] args) { Scan
 
 
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8d64b49a-be6f-4b24-97ed-25d4711f5eb0)
+
 
 
 

@@ -27,7 +27,30 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+public class Demo {
 
+    
+  public static void main(String[] args)
+    {
+	   Scanner in = new Scanner(System.in);
+       int num = in.nextInt();
+       String Name = "";
+       switch (num) {
+           case 1: Name = "a"; break;
+           case 2: Name = "e"; break;
+           case 3: Name = "i"; break;
+           case 4: Name = "o"; break;
+           case 5: Name = "u"; break;
+           default:Name = "Invalid range";
+       }
+
+      System.out.println(Name);
+    }
+}
+
+```
 
 
 
@@ -35,6 +58,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/b9267748-923b-4394-b7d1-d0dfb5af8c4c)
 
 
 

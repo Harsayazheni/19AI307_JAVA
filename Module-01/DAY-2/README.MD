@@ -51,13 +51,8 @@ public class Age {
 }
 ```
 
-
-
-
-
-
 ## OUTPUT:
-
+![Image](https://github.com/user-attachments/assets/1262454d-f5c6-47a9-8d76-e1dd738d16a2)
 
 ## RESULT:
 Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.

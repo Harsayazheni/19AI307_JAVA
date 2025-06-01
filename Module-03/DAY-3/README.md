@@ -51,7 +51,8 @@ public static void main(String[] args) {
 
 
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/53a996d8-1671-4f83-af4c-31a18898a235)
+
 
 
 

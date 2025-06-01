@@ -48,14 +48,9 @@ public class Area {
     }
 }
 ```
-
-
-
-
-
-
 ## OUTPUT:
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/5a26f174-ac81-4bb1-b8f3-e42f9498fbc5)
+
 
 
 
